@@ -1,0 +1,74 @@
+name: mightystore
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  nb_utils: ^4.4.14
+  google_fonts: ^2.3.1
+  flutter_vector_icons: ^1.0.0
+
+  intl: 0.17.0
+
+  onesignal_flutter: ^3.3.0
+  google_mobile_ads: ^1.1.0
+
+  http: ^0.13.4
+  provider: ^6.0.2
+
+  mobx: ^2.0.6+1
+  flutter_mobx: ^2.0.4
+
+  google_sign_in: ^5.2.4
+  the_apple_sign_in: ^1.1.1
+
+  video_player: ^2.3.0
+  webview_flutter: ^2.3.1
+  html: ^0.15.0
+  flutter_html: ^2.2.1
+
+  flutter_stripe: ^2.4.0
+  razorpay_flutter: ^1.2.9
+
+  url_launcher: ^6.0.20
+  share: ^2.0.4
+  package_info_plus: ^1.4.0
+
+  dotted_border: ^2.0.0+1
+  flutter_rating_bar: ^4.0.0
+  image_picker: ^0.8.4+11
+  photo_view: ^0.13.0
+  flutter_staggered_grid_view: ^0.4.1
+  cached_network_image: ^3.2.0
+  otp_text_field: ^1.1.2
+  country_code_picker: ^2.0.2
+
+  flutter_localizations:
+    sdk: flutter
+  connectivity_plus_web: ^1.2.5
+  firebase_crashlytics: ^3.0.11
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.0.5+2
+  build_runner: ^2.1.8
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/mightystore/
+    - lang/
+    - assets/
